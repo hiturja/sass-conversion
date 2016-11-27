@@ -1,0 +1,57 @@
+@include tablet {
+    
+    // The set of rules below replaced @content (see mixins.scss):
+    ul {
+    
+        li {
+            display: inline;
+        }   
+    } 
+    
+    .col-2 {
+        @include calc-column-width(2, 100%, 1%);
+    }
+
+    .col-3 {
+        @include calc-column-width(3, 100%, 1%);
+    }
+}
+
+
+@include desktop {
+    
+    // The set of rules below replaced @content (see mixins.scss):
+    ul {
+    
+        li {
+            display: inline;
+        }   
+    } 
+    
+    .col-2 {
+        @include calc-column-width(2, 100%, 1%);
+    }
+
+    .col-3 {
+        @include calc-column-width(3, 100%, 1%);
+    }
+}
+
+@include arge-desktop {
+    
+    // The set of rules below replaced @content (see mixins.scss):
+    ul {
+    
+        li {
+            display: inline;
+        }   
+    } 
+    
+    .col-2 {
+        @include calc-column-width(2, 100%, 1%);
+    }
+
+    .col-3 {
+        @include calc-column-width(3, 100%, 1%);
+    }
+}
